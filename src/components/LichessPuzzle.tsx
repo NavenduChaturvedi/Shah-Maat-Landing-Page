@@ -16,7 +16,7 @@ export function LichessPuzzle() {
           title="Lichess daily puzzle"
           src={lichessPuzzleFrame}
           className="block aspect-[400/444] w-full border-0"
-          allowtransparency="true"
+          allowTransparency
           loading="lazy"
         />
       </div>

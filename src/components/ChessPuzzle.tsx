@@ -30,7 +30,6 @@ export function ChessPuzzle() {
       if (piece?.color === "w") setSelected(square);
       return;
     }
-    if (!move) { if (piece?.color === "w") setSelected(square); return; }
     if (selected === solution.from && square === solution.to) { setGame(next); setStatus("solved"); setSelected(null); return; }
     setStatus("wrong"); setSelected(null);
   }

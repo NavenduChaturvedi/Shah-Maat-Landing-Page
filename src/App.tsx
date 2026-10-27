@@ -13,6 +13,7 @@ const communityLinks = [
   ["WhatsApp Community", "Quick updates and conversation with fellow members.", "https://chat.whatsapp.com/KmuDNRiq6E1Ik54XpsglAU"],
   ["Chess.com Club", "Your home for online events and arenas.", "https://www.chess.com/club/iitm-bs-club"],
   ["Discord Server", "Puzzles, casual sessions, and community discussion.", "https://discord.gg/GXgh2dzmfx"],
+  ["Community Guidelines", "The shared standards for a welcoming Shah-Maat community.", "https://docs.google.com/document/d/1aviZeJk2WVuRPnf81oEhSBxkRNelq-K80vbwOolaqIc/edit?tab=t.ig5p0ynvalq7#heading=h.goikw5pugs7z"],
 ] as const;
 
 export default function App() { return <main className="bg-ink text-ivory"><HeroV3 /><TournamentBand /><Pathways /><Events /><LichessPuzzle /><Join /><FooterV2 /></main>; }
